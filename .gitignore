@@ -1,6 +1,13 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
 .config/id_ecdsa
 .config/id_ecdsa.pub
 .config/tf.properties
-terraform.tfstate
-terraform.tfstate.backup
-.terraform
