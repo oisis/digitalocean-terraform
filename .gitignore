@@ -1,3 +1,5 @@
 .config/id_ecdsa
 .config/id_ecdsa.pub
 .config/tf.properties
+terraform.tfstate
+terraform.tfstate.backup
