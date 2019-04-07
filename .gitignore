@@ -3,3 +3,4 @@
 .config/tf.properties
 terraform.tfstate
 terraform.tfstate.backup
+.terraform
