@@ -6,6 +6,7 @@ resource "digitalocean_droplet" "websrv02" {
   ipv6               = false
   private_networking = true
   user_data          = "${file("config/webuserdata.sh")}"
+  tags               = ["${digitalocean_tag.uat.name}"]
 
   ssh_keys = [
     "${var.ssh_fingerprint}",
